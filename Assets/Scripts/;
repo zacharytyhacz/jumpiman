@@ -1,0 +1,27 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Sword : MonoBehaviour {
+
+	public string 	swordName = "Kindness";
+	public int 		damage = 1;
+	
+    void OnTriggerEnter2D(Collider2D col){ 
+		print(oll);
+		print("I HIT AN ENEMY");
+		if(coll.gameObject.CompareTag("Enemy")){
+			print("I HIT AN ENEMY");
+		}
+	}
+
+	// Use this for initialization
+	void Start () {
+		
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+}
